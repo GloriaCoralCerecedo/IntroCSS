@@ -1,0 +1,612 @@
+*{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-weight: bold;
+}
+body{
+    overflow-x: hidden;
+}
+/*Estilo de la barra de navegación superior*/
+.navegacion{
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+    margin-left: 150px;
+    margin-right: 250px;
+    font-size: 30px;
+    color: rgb(21, 70, 231);
+}
+.subtitulo{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(68, 67, 67);
+}
+.btnInicio{
+    margin-right: 100px;
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgb(21, 70, 231);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px  5px 50px rgba(21, 70, 231, 0.459); 
+    border-style: none;
+}
+/*Estilo del bloque 1 (Enfermera)*/
+.bloque1{
+    margin-top: 150px;
+    margin-left: 150px;
+}  
+.fondonurse {
+    background: linear-gradient(#458eee, #3f5ee7);  
+    width: 800px;
+    height: 1000px;
+    transform: rotate(-90deg);
+    margin-left: 925px;
+    margin-top: -500px;
+    z-index: -1;
+}
+.nurse{
+    width: 1300px;
+    height: 900px;
+    margin-left: 600px;
+    margin-top: -1000px;
+    position: absolute;
+}
+.titulo1{
+    color: rgb(11, 11, 83);
+    font-size:60px;
+}
+.descripcion{
+    color: rgb(68, 67, 67);
+    font-size: 20px;
+    text-align: left;
+}
+.icono{
+    background-color: rgba(245, 245, 53, 0.39);
+    width: 30px;
+    height: 30px;
+    margin-top: -450px;
+    margin-left: 150px;  
+    border-radius: 5px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.desicon{
+    margin-left: 200px;
+    margin-top: -38px;
+    color: rgb(11, 11, 83);
+}
+.icono2{
+    background-color: rgba(245, 245, 53, 0.39);
+    width: 30px;
+    height: 30px;
+    margin-top: -43px;
+    margin-left: 400px;  
+    border-radius: 5px;
+}
+.desicon2{
+    margin-left: 450px;
+    margin-top: -38px;
+    color: rgb(11, 11, 83);
+}
+.icono3{
+    background-color: rgba(53, 98, 245, 0.39);
+    width: 30px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 150px;  
+    border-radius: 5px;
+}
+.desicon3{
+    margin-left: 200px;
+    margin-top: -38px;
+    color: rgb(11, 11, 83);
+}
+.schedule{
+    width: 1000px;
+    height: 110px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: 5px  5px 50px rgba(2, 2, 2, 0.644);  
+}
+.schedule{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px  5px 50px rgba(21, 70, 231, 0.459); 
+}
+.iconSchedule1{
+    background-color: rgba(53, 98, 245, 0.39); 
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.iconSchedule2{
+    background-color: rgba(53, 98, 245, 0.39); 
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.iconSchedule3{
+    background-color: rgba(53, 98, 245, 0.39); 
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.deschedule1{
+    color: rgb(68, 67, 67);
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.resSchedule1{
+    color: rgb(11, 11, 83);
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: -75px;
+}
+.resSchedule2{
+    color: rgb(11, 11, 83);
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: -35px;
+}
+.resSchedule3{
+    color: rgb(11, 11, 83);
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: -110px;
+}
+.btnEnviar{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(21, 70, 231);
+    color: white;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-shadow: 5px  5px 50px rgba(21, 70, 231, 0.459); 
+    border-style: none;
+}
+/*Estilo de los logos de vacunas*/
+.logos{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: 200px;
+} 
+.imglogo1{
+    width: 300px;
+    height: 100px;
+}
+.imglogo2{
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.imglogo3{
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.imglogo4{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+/*Estilo del bloque 2 (Información)*/
+.titulo2{
+    margin-left: 150px;
+    margin-right: 250px;
+    font-size: 35px;
+    color: rgb(11, 11, 83);
+}
+.descripcion2{
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 18px;
+    color: rgb(68, 67, 67);
+} 
+.info1{
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 320px;
+    height: 250px;
+    box-shadow: 5px  5px 50px rgba(198, 207, 240, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.infotitulo{
+    color: rgb(11, 11, 83);
+    font-size: 25px;
+    margin-left: 20px;
+}
+.infodes{
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    margin-left: 20px;
+}
+.info2{
+    margin-top: -260px;
+    margin-left: 480px;
+    width: 320px;
+    height: 250px;
+    box-shadow: 5px  5px 50px rgba(21, 70, 231, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.info3{
+    margin-top: -260px;
+    margin-left: 810px;;
+    width: 320px;
+    height: 250px;
+    box-shadow: 5px  5px 50px rgba(198, 207, 240, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+.info4{
+    margin-top: -260px;
+    margin-left: 1140px;
+    width: 320px;
+    height: 250px;
+    box-shadow: 5px  5px 50px rgba(198, 207, 240, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+.iconinfo{
+    background-color: rgba(53, 98, 245, 0.39); 
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.bloque2{
+    margin-bottom: 100px;
+}
+/*Estilo del bloque 3 (Persona)*/
+.fondoperson {
+    background: linear-gradient(#458eee, #3f5ee7);  
+    width: 600px;
+    height: 800px;
+    transform: rotate(-90deg);
+    margin-left: 50px;
+    margin-top: -50px;
+    z-index: -1;
+}
+.person{
+    width: 1200px;
+    height: 800px;
+    margin-left: -300px;
+    margin-top: -900px;
+    position: absolute;
+}
+.titulo3{
+    margin-left: 700px;
+    font-size: 35px;
+    color: rgb(11, 11, 83);
+}
+.descripcion3{
+    margin-top: 30px;
+    margin-left: 700px;
+    font-size: 18px;
+    color: rgb(68, 67, 67);
+} 
+.opcion1{
+    margin-left: 900px;
+    margin-top: -650px;
+    width: 500px;
+    height: 80px;
+    box-shadow: 5px  5px 50px rgba(198, 207, 240, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.opcion2{
+    margin-left: 900px;
+    margin-top: 10px;
+    width: 500px;
+    height: 150px;
+    box-shadow: 5px  5px 50px rgba(21, 70, 231, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.opcion3{
+    margin-left: 900px;
+    margin-top: 10px;
+    width: 500px;
+    height: 80px;
+    box-shadow: 5px  5px 50px rgba(198, 207, 240, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.opcion4{
+    margin-left: 900px;
+    margin-top: 10px;
+    width: 500px;
+    height: 80px;
+    box-shadow: 5px  5px 50px rgba(198, 207, 240, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+} 
+.opcion5{
+    margin-left: 900px;
+    margin-top: -5px;
+}
+.titulopcion{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: -25px;
+    color: rgb(11, 11, 83);
+
+}
+.desopcion{
+    font-size: 15px;
+    margin-left:30px;
+    color: rgb(68, 67, 67);
+
+}  
+.iconinfo2{
+    background-color: rgba(131, 125, 125, 0.39); 
+    width: 30px;
+    height: 30px;
+    margin-left: 450px;
+    margin-top: -120px;
+    border-radius: 5px;
+}
+.iconopcion{
+    background-color: rgba(53, 98, 245, 0.39); 
+    width: 30px;
+    height: 30px;
+    margin-left: 450px;
+    margin-top: -50px;
+    border-radius: 5px;
+}
+.bloque3{
+    margin-bottom: 100px;
+}
+/*Estilo del bloque 4 (Doctor)*/
+.fondodoc {
+    background: linear-gradient(#458eee, #3f5ee7);  
+    width: 600px;
+    height: 800px;
+    transform: rotate(-90deg);
+    margin-left: 900px;
+    margin-top: -50px;
+    z-index: -1;
+}
+.doctor{
+    width: 1200px;
+    height: 800px;
+    margin-left: 550px;
+    margin-top: -900px;
+    position: absolute;
+}
+.titulo4{
+    font-size: 35px;
+    color: rgb(11, 11, 83);
+}
+.descripcion4{
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(68, 67, 67);
+} 
+.call{
+    margin-top:-600px;
+    margin-left: 150px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px  5px 50px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.titlenum1{
+    margin-top:-35px;
+    margin-left: 50px;
+    color: rgb(11, 11, 83);
+    font-size: 18px;
+
+}
+.num1{
+    margin-top:-15px;
+    margin-left: 50px;
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+}
+.btncall{
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    background-color: #e0edff;
+    color: rgb(24, 77, 250); 
+    box-shadow: 5px  5px 50px rgba(161, 161, 161, 0.459); 
+    border-radius: 5px;
+    border-style: none;
+}
+.chat{
+    margin-top:-160px;
+    margin-left: 430px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px  5px 50px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.titlenum2{
+    margin-top:-35px;
+    margin-left: 100px;
+    color: rgb(11, 11, 83);
+    font-size: 18px;
+
+}
+.num2{
+    margin-top:-15px;
+    margin-left: 100px;
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+}
+.btnchat{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(24, 77, 250); 
+    color: rgb(255, 255, 255); 
+    box-shadow: 5px  5px 50px rgba(21, 70, 231, 0.459); 
+    border-radius: 5px;
+    border-style: none;
+}
+.video{
+    margin-top:100px;
+    margin-left: 150px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px  5px 50px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.titlenum3{
+    margin-top:-35px;
+    margin-left: 100px;
+    color: rgb(11, 11, 83);
+    font-size: 18px;
+
+}
+.num3{
+    margin-top:-15px;
+    margin-left: 100px;
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+}
+.btnvideo{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    background-color: #e0edff;
+    color: rgb(24, 77, 250); 
+    box-shadow: 5px  5px 50px rgba(161, 161, 161, 0.459); 
+    border-radius: 5px;
+    border-style: none;
+}
+.mensaje{
+    margin-top:-160px;
+    margin-left: 430px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px  5px 50px rgba(161, 161, 161, 0.459); 
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.titlenum4{
+    margin-top:-35px;
+    margin-left: 100px;
+    color: rgb(11, 11, 83);
+    font-size: 18px;
+
+}
+.num4{
+    margin-top:-15px;
+    margin-left: 100px;
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+}
+.btnmensaje{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    background-color: #e0edff;
+    color: rgb(24, 77, 250); 
+    box-shadow: 5px  5px 50px rgba(161, 161, 161, 0.459); 
+    border-radius: 5px;
+    border-style: none;
+}
+.bloque4{
+    margin-bottom: 200px;
+}
+/*Pie de página*/
+footer{
+    margin-top: 200px;
+    background-color: #e0edff;
+    margin-bottom: -200px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 400px;
+}
+.piePagina{
+    margin-left: 200px;
+    padding-top:50px;
+}
+.titulopie{
+    color: rgb(21, 70, 231);
+}
+.subpie{
+    color: rgb(68, 67, 67);
+    margin-top: 50px;
+}
+.derecho{
+    color: rgb(68, 67, 67);
+    margin-top: 150px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+.titulosub{
+    color: rgb(11, 11, 83);
+}
+.sub{
+    color: rgb(68, 67, 67);
+}
+.about{
+    margin-top: -315px;
+    margin-left: 850px;
+}
+.company{
+    margin-top: -145px;
+    margin-left: 1040px;
+}
+.support{
+    margin-top: -150px;
+    margin-left: 1250px;
+}
+.termino{
+    color: rgb(68, 67, 67);
+    margin-top: 127px;
+    margin-left: 1050px;
+}
+.politica{
+    color: rgb(68, 67, 67);  
+    margin-top: -35px;
+    margin-left: 1250px;
+}
+
+
+
+
